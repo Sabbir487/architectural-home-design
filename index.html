@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Home Design</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- DaisyUi CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custome Themes -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: 'rgb(171, 239, 95)',
+                    },
+                    fontFamily: {
+                        Manrope: "Manrope",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-Manrope">
+    <header class="bg-[#f5f5f5]">
+        <!-- Nav Menu Style -->
+        <nav class="container lg:w-9/12 mx-auto pt-4 lg:pt-8">
+            <div class="navbar justify-between">
+                <div class="navbar-start">
+                    <a class="ml-2 py-1 px-2 bg-primary mr-2 rounded-full -rotate-45" href="#"><i
+                            class="fa-solid fa-arrow-right "></i>
+                    </a>
+                    <a class="font-extrabold text-3xl" href="#">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal text-center font-bold text-gray-500 px-1">
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out text-black"
+                                href="#">Home</a></li>
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out"
+                                href="#">Service</a></li>
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out"
+                                href="#">Portfolio</a></li>
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out" href="#">Blogs</a>
+                        </li>
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out" href="#">Contuct
+                                Us</a></li>
+                    </ul>
+                </div>
+                <div class="hidden space-x-2 navbar-end md:flex md:justify-end lg:flex lg:justify-end">
+
+                    <a href="#"><i
+                            class="fa-solid fa-magnifying-glass py-3 px-3 rounded-3xl bg-white opacity-80 "></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping py-3 px-3 rounded-3xl bg-white opacity-80 "></i></a>
+
+                    <button class="btn text-white font-extrabold bg-primary rounded-3xl"><a>Book Consult<i
+                                class="fa-solid fa-arrow-right ml-2 py-2 px-2 bg-black rounded-2xl -rotate-45"></i></a>
+                    </button>
+                </div>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-bold text-gray-500 right-0">
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out text-black"
+                                href="#">Home</a></li>
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out"
+                                href="#">Service</a></li>
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out"
+                                href="#">Portfolio</a></li>
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out" href="#">Blogs</a>
+                        </li>
+                        <li><a class="hover:text-primary transition-colors duration-300 ease-in-out" href="#">Contuct
+                                Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
